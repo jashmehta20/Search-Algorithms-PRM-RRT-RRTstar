@@ -40,15 +40,15 @@ if __name__ == "__main__":
     RRT_planner = RRT(map_array, start, goal)
 
     # Search with PRM
-    # a=PRM_planner.sample(n_pts=1000, sampling_method="uniform")
-    # PRM_planner.search(start, goal,a)
-    # a=PRM_planner.sample(n_pts=1000, sampling_method="random")
-    # PRM_planner.search(start, goal,a)
-    # a=PRM_planner.sample(n_pts=2000, sampling_method="gaussian")
-    # PRM_planner.search(start, goal,a)
-    # a=PRM_planner.sample(n_pts=20000, sampling_method="bridge")
-    # PRM_planner.search(start, goal,a)
+    a=PRM_planner.sample(n_pts=1000, sampling_method="uniform")
+    PRM_planner.search(start, goal,a)
+    a=PRM_planner.sample(n_pts=1000, sampling_method="random")
+    PRM_planner.search(start, goal,a)
+    a=PRM_planner.sample(n_pts=2000, sampling_method="gaussian")
+    PRM_planner.search(start, goal,a)
+    a=PRM_planner.sample(n_pts=20000, sampling_method="bridge")
+    PRM_planner.search(start, goal,a)
 
     # # Search with RRT and RRT*
-    # RRT_planner.RRT(n_pts=1000)
+    RRT_planner.RRT(n_pts=1000)
     RRT_planner.RRT_star(n_pts=2000)
