@@ -2,15 +2,17 @@
 
 ## Overview
 
-In this assignment, you are going to implement **PRM**, **RRT** and **RRT*** algorithms. For **PRM**, you are required to implement 4 different sampling methods - **uniform sampling**, **random sampling**, **gaussian sampling** and **bridge sampling**. These three algorithms are the basic ones for sampling-based planning. This template is provided to you as a start point. After you finish coding, you would be able to run these algorithms to find a path in a map, and visualize the result.
+Implementation of Sampling based algorithms **PRM**, **RRT** and **RRT***. 
+4 different sampling methods are coded for **PRM**, namely - **uniform sampling**, **random sampling**, **gaussian sampling** and **bridge sampling**.
+
 
 Files included:
 
-**PRM.py** is the file where you will implement a PRM class with four different sampling methods.
+**PRM.py** includes a PRM class with four different sampling methods.
 
-**RRT.py** is the file where you will implement a RRT class for RRT and RRT*.
+**RRT.py** includes a RRT class for RRT and RRT*.
 
-**main.py** is the scrip that provides helper functions that load the map from an image and call the classes and functions from **PRM.py** and **RRT.py**. You are not required to modify anything but you are encouraged to understand the code.
+**main.py** is the script that provides helper functions that load the map from an image and call the classes and functions from **PRM.py** and **RRT.py**.
 
 **WPI_map.jpg** is a binary WPI map image with school buildings. You could replace it with some other maps you prefer.
 
