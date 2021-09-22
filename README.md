@@ -1,4 +1,4 @@
-# RBE 550 - Standard Search Algorithms Implementation
+# Sampling Based Search Algorithms Implementation
 
 ## Overview
 
