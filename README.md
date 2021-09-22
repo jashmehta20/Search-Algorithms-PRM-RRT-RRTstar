@@ -19,6 +19,6 @@ Files included:
 
 ## Instruction to Run the Code 
 - Gitclone the repository.
-- Add a new binary image file as a map and updated the start and goal coordinates for path planning.
+- Add a new binary image file as a map if you want to try out new map and update the start and goal coordinates for path planning.
 - Run the main.py script to see the plotted results of all 4 PRM sampling methods, RRT and RRT*.
 
